@@ -5,8 +5,8 @@
 	width: 50px;/*ширина*/
 	height: 30px; /*высота*/
 	font-size: 10px;/*размер шрифта*/
-	cursor: pointer; /* Указатель мыши при наведении */ 
-}  
+	cursor: pointer; /* Указатель мыши при наведении */
+}
 #knopka-sound:after {/*вставить иконку*/
 	content:"\266c";/*стиль для иконки "нота"*/
 	font: 20px Arial;/*размер шрифта*/
@@ -21,7 +21,7 @@
 	height: 30px; /*высота*/
 	top: 50px;
 	left: 30px;
-	cursor: pointer; /* Указатель мыши при наведении */ 
+	cursor: pointer; /* Указатель мыши при наведении */
 }
 #knopka-nastroika:after {/*вставить иконку*/
 	content: "\2699";/*стиль для иконки "настройка"*/
@@ -35,7 +35,7 @@
 	height: 30px; /*высота*/
 	top: 90px;
 	left: 30px;
-	cursor: pointer; /* Указатель мыши при наведении */ 
+	cursor: pointer; /* Указатель мыши при наведении */
 }
 #knopka-start:after {/*вставить иконку*/
 	content: "\25ba";/*стили для иконки "старт*/
