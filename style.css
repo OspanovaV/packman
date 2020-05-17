@@ -1,0 +1,69 @@
+#knopka-sound {/*стили для кнопки звук*/
+	background: #FFC0CB;/*фон кнопки*/
+	border: 1px solid #000000;/*рамка сплошная, черная*/
+	position: absolute;
+	width: 50px;/*ширина*/
+	height: 30px; /*высота*/
+	font-size: 10px;/*размер шрифта*/
+	cursor: pointer; /* Указатель мыши при наведении */ 
+}  
+#knopka-sound:after {/*вставить иконку*/
+	content:"\266c";/*стиль для иконки "нота"*/
+	font: 20px Arial;/*размер шрифта*/
+	margin: auto;
+}
+
+#knopka-nastroika {/*стили для кнопки настройка*/
+	background: #ADFF2F;/*фон кнопки*/
+	border: 1px solid #000000;/*рамка сплошная, черная*/
+	position: absolute;
+	width: 50px;/*ширина*/
+	height: 30px; /*высота*/
+	top: 50px;
+	left: 30px;
+	cursor: pointer; /* Указатель мыши при наведении */ 
+}
+#knopka-nastroika:after {/*вставить иконку*/
+	content: "\2699";/*стиль для иконки "настройка"*/
+	font: 20px Arial;/*размер шрифта*/
+}
+#knopka-start {/*стили для кнопки настройка*/
+	background: #1E90FF;/*фон кнопки*/
+	border: 1px solid #000000;/*рамка сплошная, черная*/
+	position: absolute;
+	width: 50px;/*ширина*/
+	height: 30px; /*высота*/
+	top: 90px;
+	left: 30px;
+	cursor: pointer; /* Указатель мыши при наведении */ 
+}
+#knopka-start:after {/*вставить иконку*/
+	content: "\25ba";/*стили для иконки "старт*/
+	font: 20px Arial;/*размер шрифта*/
+}
+#direktive {
+	background: #FFFFFF;/*фон*/
+	border: 1px solid #000000;/*рамка сплошная, черная*/
+	position: absolute;
+	width: 300px;/*ширина*/
+	height: 400px; /*высота*/
+	top: 100px;
+	left: 50px;
+	font-size: 20px;/*размер шрифта*/
+}
+#up:after {
+	content: "\21D1";
+	font: 40px Verdana;/*размер шрифта*/
+}
+#down:after {
+	content: "\21D3";
+	font: 40px Verdana;/*размер шрифта*/
+}
+#right:after {
+	content: "\21D2";
+	font: 40px Verdana;/*размер шрифта*/
+}
+#left:after {
+	content: "\21D0";
+	font: 40px Verdana;/*размер шрифта*/
+}
