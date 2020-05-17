@@ -51,19 +51,19 @@
 	left: 50px;
 	font-size: 20px;/*размер шрифта*/
 }
-#up:after {
-	content: "\21D1";
+#up:after {/*вставить иконку*/
+	content: "\21D1";/*стрелочка вверх*/
 	font: 40px Verdana;/*размер шрифта*/
 }
-#down:after {
-	content: "\21D3";
+#down:after {/*вставить иконку*/
+	content: "\21D3";/*стрелочка вниз*/
 	font: 40px Verdana;/*размер шрифта*/
 }
-#right:after {
-	content: "\21D2";
+#right:after {/*вставить иконку*/
+	content: "\21D2";/*стрелочка вправо*/
 	font: 40px Verdana;/*размер шрифта*/
 }
-#left:after {
-	content: "\21D0";
+#left:after {/*вставить иконку*/
+	content: "\21D0";/*стрелочка влево*/
 	font: 40px Verdana;/*размер шрифта*/
 }

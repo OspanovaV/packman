@@ -51,30 +51,33 @@ sozdanieStartBlok();
 function sozdanieDirektive() {
 //создаем блок <div id="direktive">
 	var div = document.createElement("div");
+<<<<<<< HEAD:js/function.js
 		div.id = "direktive";
 	//создаем блок <h2>движение вверх</h2>
+=======
+		div.id = "direktive";//добавляем тегу div=>id="direktive"
+	//создаем блок <h2>движение вверх</h2>
+>>>>>>> origin/master:function.js
 	var h2 = document.createElement("h2");
 		h2.id = "up";
 		h2.innerText = "движение вверх";
-		div.appendChild(h2);
-	//создаем блок <h3>движение вниз</h3>
+		div.appendChild(h2);//добавляем в блок div заголовок h2
+	//создаем блок <h2>движение вниз</h2>
 	var h2 = document.createElement("h2");
 		h2.id = "down";
 		h2.innerText = "движение вниз";
-		div.appendChild(h2);
-	//создаем блок <h4>движение вправо</h4>
+		div.appendChild(h2);//добавляем в блок div заголовок h2
+	//создаем блок <h2>движение вправо</h2>
 	var h2 = document.createElement("h2");
 		h2.id = "right";
 		h2.innerText = "движение вправо";
-		div.appendChild(h2);
-	//создаем блок <h5>движение влево</h5>
+		div.appendChild(h2);//добавляем в блок div заголовок h2
+	//создаем блок <h2>движение влево</h2>
 	var h2 = document.createElement("h2");
 		h2.id = "left";
 		h2.innerText = "движение влево";
 	div.appendChild(h2);//добавляем в блок div заголовок h2
-	////добавляем в блок div заголовок h3
-	// div.appendChild(h4);//добавляем в блок div заголовок h4
-	// div.appendChild(h5);//добавляем в блок div заголовок h5
+
 	//добавляем блок div в блок <body> HTML
 	document.body.appendChild(div);
 }
