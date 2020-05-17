@@ -51,13 +51,10 @@ sozdanieStartBlok();
 function sozdanieDirektive() {
 //создаем блок <div id="direktive">
 	var div = document.createElement("div");
-<<<<<<< HEAD:js/function.js
 		div.id = "direktive";
 	//создаем блок <h2>движение вверх</h2>
-=======
 		div.id = "direktive";//добавляем тегу div=>id="direktive"
 	//создаем блок <h2>движение вверх</h2>
->>>>>>> origin/master:function.js
 	var h2 = document.createElement("h2");
 		h2.id = "up";
 		h2.innerText = "движение вверх";
