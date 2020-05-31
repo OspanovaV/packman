@@ -5,7 +5,6 @@ function packman() {
     //    packman.id = "packman";
     igrapole.appendChild(packman);
 }
-packman()
 
 function enemy() {
     //создаем врагов
@@ -16,4 +15,3 @@ function enemy() {
     enemy2.id = "enemy2";
     igrapole.appendChild(enemy2);
 }
-enemy()

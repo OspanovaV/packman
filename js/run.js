@@ -8,7 +8,6 @@ document.onkeypress = function (event) {
         packman.style.left = packman.offsetLeft + 4 + "px";
 //        проверяется на касание игрока к стене
         for ( i = 0; i < box.length; i++) {
-            console.log(i);
 //            помещаем все стены в масив
             var box2 = box[i];
 //            если игрок касается стены дальше не может двигатся
@@ -81,5 +80,5 @@ var box = document.getElementsByClassName("brick");
 //       }
 //    }
 
-    move();
+//    move();
 }

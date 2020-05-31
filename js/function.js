@@ -53,6 +53,8 @@ function sozdanieDirektive() {
 		div.id = "direktive";//добавляем тегу div=>id="direktive"
 
 	//создаем блок <h2>движение вверх</h2>
+
+	//создаем блок <h2>движение вверх</h2>
 		var h2 = document.createElement("h2");
 		h2.id = "up";
 		h2.innerText = "движение вверх";
@@ -77,6 +79,14 @@ function sozdanieDirektive() {
 }
 sozdanieDirektive()
 
+// создаем блок <div id = "start-igra"></div>
+function sozdanieStartIgra () {
+	startIgra = document.createElement("div");//создаем элемент с параметром div
+	startIgra.id = "start-igra";//добавляем тегу div=>id="start-igra"
+	igrapole.appendChild(startIgra);//добавляем startIgra в игровое поле
+}
+sozdanieStartIgra ()
+
 //при клике на кнопку выполняем функцию
 knopkaNastroika.onclick = function (){
 	direktive.style.display = "block";//отображаем блок direktive
@@ -85,6 +95,39 @@ knopkaNastroika.onclick = function (){
 		}, 5000);
 }
 
+//<div id="stars">	0	</div>
+//создаем stars - блок очки на игровом поле
+function sozdanieOchkiBlock() {
+	stars = document.createElement("div");//создаем элемент с параметром div
+	stars.id = "stars";//добавляем тегу div => id="stars"
+	stars.innerText = "0";//выводим информацию о звездах на поле
+	igrapole.appendChild(stars);//добавляем в игровое поле <div id="igra"> элемент stars
+}
 
 
+//<div id="lifes"><span></span><span></span><span></span></div>
+//создаем lifes - жизни на игровом поле с помощью цикла
+function sozdanieLifesBlock(){
+	lifesBlock = document.createElement("div");//создаем блок div
+	lifesBlock.id = "lifes";//добавляем тегу div => id="lifes"
+	var colichestvoLifes = 3;
+	var tekucheeColichestvoLives = 0;//переменная в которой храним текущее количество отображенных жизней
+	while(tekucheeColichestvoLives < colichestvoLifes) {//пока выполняется условие
+		var span = document.createElement("span");//создаем элемент span
+		lifesBlock.appendChild(span);
+		tekucheeColichestvoLives = tekucheeColichestvoLives + 1;//увеличиваем количество жизней
+	}
+	igrapole.appendChild(lifesBlock);//добавляем в игровое поле <div id="igra"> элемент stars
+}
 
+
+//при клике на кнопку выполняем функцию
+knopkaStart.onclick = function (){
+	startIgra.style.display = "none";//скрываем картинку старт игра
+	field();//выполняем функцию создания карты
+	packman()
+	packman.style.display = "block";//отображаем главного героя "packman"
+    enemy();
+	sozdanieLifesBlock()
+	sozdanieOchkiBlock()
+}

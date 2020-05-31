@@ -68,3 +68,38 @@
 	content: "\21D0";/*стрелочка влево*/
 	font: 40px Verdana;/*размер шрифта*/
 }
+#start-igra {
+	background-image: url(../image/startBlock.jpg);
+	background-size: 100%;
+	width: 750px;
+    height: 500px;
+
+    /*margin-left: 150px;*/
+    /*margin-top: 50px;*/
+    border: 2px solid black;
+    /*display: none;*/
+}
+#stars{
+	font-size: 20px;/*размер шрифта*/
+	color: #FFFFFF;/*цвет белый*/
+	font-weight: bold;/*жирный шрифт*/
+	position: relative;
+	top: 8px;/*отступ сверху*/
+	left: 10px;/*отступ слева*/
+	z-index: 1;/*размещением по z-оси."1"-Это второй слой.свойство работает только для position задано absolute, fixed, relative*/
+}
+#lifes{
+	position: absolute;/*позиционирование*/
+	top: 55px;/*отступ сверху*/
+	left: 850px;/*отступ справа*/
+	z-index: 1;
+}
+#lifes span{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 2px solid #fff;/*рамка сплошная, белая*/
+	background: BlueViolet;
+	display: block;/*отображает элемент*/
+	float: left;/*прилипнули шарики слева*/
+}

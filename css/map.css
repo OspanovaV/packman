@@ -11,6 +11,7 @@
         position: absolute;
 }
 #brick1 {
+    top: 50px;
     width: 30px;
     height: 230px;
 }
@@ -20,6 +21,7 @@
     height: 230px;
 }
 #brick3 {
+    top: 50px;
     left: 880px;
     width: 30px;
     height: 230px;
@@ -31,6 +33,7 @@
     height: 230px;
 }
 #brick5 {
+    top: 50px;
     width: 750px;
     height: 30px;
 }
@@ -129,12 +132,12 @@
 }
 .packman {
     background-color: yellow;
-    display: block;
+    display: none;
     left: 190px;
     top: 287px;
     width: 30px;
     height: 30px;
-    display: inline-block;
+    /*display: inline-block;*/
     position: absolute;
 }
 #enemy1 {
