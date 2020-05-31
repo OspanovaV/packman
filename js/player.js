@@ -5,4 +5,4 @@ function packman() {
     packman.id = "packman";
     igrapole.appendChild(packman);
 }
-packman()
+

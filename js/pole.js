@@ -1,6 +1,6 @@
 
 function field() {
-    //створюємо карту
+    //создаем карту
     brick1 = document.createElement("span");
     brick1.className = "brick";
     brick1.id = "brick1";
@@ -88,4 +88,4 @@ function field() {
     igrapole.appendChild(brick21);
 }
 
-field();
+// field();
