@@ -50,6 +50,7 @@
 	top: 100px;
 	left: 50px;
 	font-size: 20px;/*размер шрифта*/
+	display: none;
 }
 #up:after {/*вставить иконку*/
 	content: "\21D1";/*стрелочка вверх*/

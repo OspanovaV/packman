@@ -63,33 +63,33 @@
 }
 #brick11 {
     left: 235px;
-    top: 381px;
+    top: 387px;
     width: 75px;
-    height: 100px;
+    height: 96px;
 }
 #brick12 {
     left: 360px;
-    top: 381px;
+    top: 387px;
     width: 75px;
-    height: 100px;
+    height: 96px;
 }
 #brick13 {
     left: 480px;
-    top: 381px;
+    top: 387px;
     width: 75px;
-    height: 100px;
+    height: 96px;
 }
 #brick14 {
     left: 600px;
-    top: 381px;
+    top: 387px;
     width: 75px;
-    height: 100px;
+    height: 96px;
 }
 #brick15 {
     left: 720px;
-    top: 381px;
+    top: 387px;
     width: 120px;
-    height: 100px;
+    height: 96px;
 }
 #brick16 {
     left: 280px;
@@ -127,11 +127,31 @@
     width: 350px;
     height: 50px;
 }
-#packman {
+.packman {
     background-color: yellow;
     display: block;
     left: 190px;
     top: 287px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+}
+#enemy1 {
+    background-color: red;
+    display: block;
+    left: 195px;
+    top: 85px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+}
+#enemy2 {
+    background-color: green;
+    display: block;
+    left: 847px;
+    top: 487px;
     width: 30px;
     height: 30px;
     display: inline-block;
